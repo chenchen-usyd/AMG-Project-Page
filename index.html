@@ -149,15 +149,7 @@
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-        <img src="static/images/carousel1.png" alt="MY ALT TEXT"/>
-<!--         <h2 class="subtitle has-text-centered">
-          Multi-stage model vs. diffusion model for action segmentation.
-They both follow an iterative refinement paradigm.
-Left: Many previous methods utilize a multi-stage framework to
-refine the initial prediction. Right: Our method formulates action
-segmentation as a frame-wise action sequence generation problem
-and obtains the refined prediction by an iterative denoising process.
-        </h2> -->
+        <img src="static/images/intro.png" alt="MY ALT TEXT"/>
     </div>
   </div>
 </section>
@@ -178,63 +170,6 @@ and obtains the refined prediction by an iterative denoising process.
   </div>
 </section>
 <!-- End paper abstract -->
-
-
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-<!--        <div class="item">
-        <img src="static/images/carousel1.png" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          Multi-stage model vs. diffusion model for action segmentation.
-They both follow an iterative refinement paradigm.
-Left: Many previous methods utilize a multi-stage framework to
-refine the initial prediction. Right: Our method formulates action
-segmentation as a frame-wise action sequence generation problem
-and obtains the refined prediction by an iterative denoising process.
-        </h2>
-      </div> -->
-<!--       <div class="item">
-        <img src="static/images/carousel2.png" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          Method overview. During training, the proposed model
-is optimized to denoise corrupted action sequences. At inference,
-the model begins with a random noise sequence and obtains results
-via an iterative denoising process. The condition masking strategy
-strengthens the modeling of the three action priors.
-        </h2>
-      </div> -->
-      <div class="item">
-        <img src="static/images/carousel4.png" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-         Comparison with state-of-the-art methods. Our method achieves superior results on 50Salads
-and Breakfast, and comparable performance on GTEA.
-       </h2>
-     </div>
-
-      <div class="item">
-        <img src="static/images/carousel4.png" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-         Comparison with state-of-the-art methods. Our method achieves superior results on 50Salads
-and Breakfast, and comparable performance on GTEA.
-       </h2>
-     </div>
-<!--      <div class="item">
-      <img src="static/images/carousel3.png" alt="MY ALT TEXT"/>
-      <h2 class="subtitle has-text-centered">
-        Visualization of the iterative denoising process. The
-ground truth is presented in (b), where some segments are marked
-with class labels. The (a) and (c) respectively plot the inference
-trajectory and the denoised sequences at different steps. The video is ‘rgb-01-2’ from 50Salads.
-      </h2>
-    </div> -->
-  </div>
-</div>
-</div>
-</section>
-<!-- End image carousel -->
 
 
 
@@ -281,27 +216,32 @@ and Breakfast, and comparable performance on GTEA.
 <!-- End youtube video -->
 
 
+<section class="hero teaser is-light">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+        <img src="static/images/carousel4.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+          Comparison with state-of-the-art methods. Our method achieves superior results on 50Salads and Breakfast, and comparable performance on GTEA.
+        </h2>
+    </div>
+  </div>
+</section>
+
 <!-- Video carousel -->
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title is-3">Visualization on GTEA</h2>
-      <div id="results-carousel" class="carousel results-carousel">
+      <h2 class="title is-3 has-text-centered">Visualization on GTEA</h2>
+      <div id="results-carousel" class="carousel results-carousel has-text-centered">
         <div class="item item-video1">
-          <video poster="" id="video1" autoplay controls muted loop height="100%">
-            <source src="static/videos/vis_S1_Tea_C1.mp4"
+          <video poster="" id="video1" autoplay controls muted loop height="100%">\
+            <source src="static/videos/vis_S4_Coffee_C1.mp4"
             type="video/mp4">
           </video>
         </div>
         <div class="item item-video2">
           <video poster="" id="video2" autoplay controls muted loop height="100%">
-            <source src="static/videos/vis_S3_CofHoney_C1.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <video poster="" id="video3" autoplay controls muted loop height="100%">\
-            <source src="static/videos/vis_S4_Coffee_C1.mp4"
+            <source src="static/videos/vis_S1_Tea_C1.mp4"
             type="video/mp4">
           </video>
         </div>
@@ -313,7 +253,55 @@ and Breakfast, and comparable performance on GTEA.
 
 
 
+<!-- Video carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3 has-text-centered">Visualization on 50Salads</h2>
+      <div id="results-carousel" class="carousel results-carousel has-text-centered">
+        <div class="item item-video1">
+          <video poster="" id="video1" autoplay controls muted loop height="100%">
+            <source src="static/videos/vis_rgb-04-1-low.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video2">
+          <video poster="" id="video2" autoplay controls muted loop height="100%">\
+            <source src="static/videos/vis_rgb-20-2-low.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End video carousel -->
 
+
+
+<!-- Video carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3 has-text-centered">Visualization on Breakfast</h2>
+      <div id="results-carousel" class="carousel results-carousel has-text-centered">
+        <div class="item item-video1">
+          <video poster="" id="video1" autoplay controls muted loop height="100%">\
+            <source src="static/videos/vis_S4_Coffee_C1.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video2">
+          <video poster="" id="video2" autoplay controls muted loop height="100%">
+            <source src="static/videos/vis_S1_Tea_C1.mp4"
+            type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End video carousel -->
 
 
 <!-- Paper poster -->
@@ -329,6 +317,48 @@ and Breakfast, and comparable performance on GTEA.
     </div>
   </section> -->
 <!--End paper poster -->
+
+
+<!-- Image carousel -->
+<!-- <section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+
+      <div class="item">
+        <img src="static/images/carousel4.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+         Comparison with state-of-the-art methods. Our method achieves superior results on 50Salads and Breakfast, and comparable performance on GTEA.
+       </h2>
+     </div>
+
+      <div class="item">
+        <img src="static/images/carousel1.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+         Ablation study on the prior modeling. N: Baseline. P: Position prior. B: Boundary prior. R: Relation prior. For each row, a scheme is randomly selected from the ticked ones at each training iteration.
+       </h2>
+     </div>
+
+      <div class="item">
+        <img src="static/images/carousel2.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+         Ablation study on the loss functions.
+       </h2>
+     </div>
+
+      <div class="item">
+        <img src="static/images/carousel3.png" alt="MY ALT TEXT"/>
+        <h2 class="subtitle has-text-centered">
+         Ablation study on the number of inference steps.
+       </h2>
+     </div>
+
+
+  </div>
+</div>
+</div>
+</section> -->
+<!-- End image carousel -->
 
 
 <!--BibTex citation -->
