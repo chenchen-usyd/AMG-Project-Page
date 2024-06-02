@@ -159,7 +159,7 @@
   <div class="container is-max-desktop">
     <div class="hero-body">
         <img src="static/images/intro.png" alt="MY ALT TEXT"/>
-        <img src="static/images/intro2.png" alt="MY ALT TEXT"/>
+<!--         <img src="static/images/intro2.png" alt="MY ALT TEXT"/> -->
 <!--        <img src="static/pdfs/intro.pdf" alt="MY ALT TEXT"/>
  -->    </div>
   </div>
@@ -215,7 +215,56 @@
 </section>
 <!-- End paper abstract -->
 
+<!-- Paper motivations -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Motivations</h2>
+        <div class="content has-text-justified">
+          <ul>
+            <li>Pretrained diffusion models can memorize and regurgitate training data during inference without informing data owners and model users.</li>
+            <li>This has exposed the owners and users to potential violation of copyright laws and introduction of ethical dilemmas.</li>
+            <li>Two factors have heightened such litigation risks:
+              <ul>
+                <li>(1) the widespread use and deployment of open-source state-of-the-art diffusion models, and</li>
+                <li>(2) the extensive size of training sets, which impedes detailed human review.</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper motivations -->
 
+<!-- Paper research gaps -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Research Gaps</h2>
+        <div class="content has-text-justified">
+          <ul>
+            <li>Previous research often necessitates the followings:</li>
+            <ul>
+              <li>Reducing memorization at a cost of output quality and utility (text-alignment).</li>
+              <li>Model re-training.</li>
+              <li>Not automated by nature:
+                <ul>
+                  <li>Extensive manual intervention.</li>
+                  <li>Indiscriminative applications of mitigation strategy to both memorized and un-memorized prompts.</li>
+                </ul>
+              </li>
+            </ul>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper research gaps -->
 
 
 <!-- Image carousel -->
@@ -412,11 +461,11 @@ and Breakfast, and comparable performance on GTEA.
     <div class="container is-max-desktop content">
       <h2 class="title">BibTeX</h2>
       <pre><code>
-@inproceedings{liu2023diffusion,
-  title={Diffusion Action Segmentation},
-  author={Liu, Daochang and Li, Qiyue and Dinh, Anh-Dung and Jiang, Tingting and Shah, Mubarak and Xu, Chang},
-  booktitle={International Conference on Computer Vision (ICCV)},
-  year={2023}
+@inproceedings{chen2024amg,
+  title={Towards Memorization-Free Diffusion Models},
+  author={Chen, Chen and Liu, Daochang and Xu, Chang},
+  booktitle={The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2024}
 }
           </code></pre>
     </div>
